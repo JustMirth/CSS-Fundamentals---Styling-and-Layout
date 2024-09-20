@@ -1,0 +1,85 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: black;
+    margin: 0 auto;
+    padding: 50px;
+    text-align: center;
+}
+form{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: midnightblue;
+    padding: 20px;
+    border: 1px solid;
+    border-radius: 20px;
+    width: 300px;
+    margin: 0 auto;
+    font-weight: 700;
+    font-size: 18px;
+}
+h1{   
+    color:wheat;
+    font-size: 50px;
+    font-weight: 700;
+}
+p{
+    color:wheat;
+    font-size: 30px;
+    font-weight: 300;
+}
+p1{
+    color:wheat;
+    font-size: 5px;
+    font-weight: 100;
+    padding-top: 300px;
+}
+input[type="text"], input[type="email"], input[type="password"] {
+    background-color: wheat;
+    width: 100%;
+    padding: 7.5px;
+    margin: 7.5px 0;
+    border: 1px solid silver;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+input[type="date"] {
+    background-color: wheat;
+    padding: 7.5px;
+    margin: 7.5px 0;
+    border: 1px solid silver;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+input[type="radio"], input[type="checkbox"] {
+    margin: 7.5px 0;
+}
+input[type="submit"], input[type="reset"] {
+    background-color: wheat;
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 30%;
+}
+input[type="submit"]:hover, input[type="reset"]:hover {
+    background-color: silver;
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 50px;
+    width: 100%;
+}
+.submit, .reset{
+    display: inline;
+    border: none;
+    border-radius: 20px;
+}
+form label, form legend{
+    color:silver;
+    display: inline;
+    margin-bottom: 5px;
+}
+
